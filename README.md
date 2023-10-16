@@ -82,3 +82,16 @@ git checkout main
 ```
 git merge development
 ```
+
+
+# les datas pour le fetch
+j'ai utilisé json-server pour créer mes datas
+il faut l'installer
+et le lancer avec la commande suivante
+
+```
+npm install json-server -g
+json-server --watch ./_data/db.json --port 4000 
+```	
+le endpoint est : http://localhost:4000/tickets
+ 
