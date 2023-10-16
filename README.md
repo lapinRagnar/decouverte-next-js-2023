@@ -61,6 +61,11 @@ git branch nom_de_la_nouvelle_branche
 git checkout nom_de_la_nouvelle_branche
 ```
 
+### fusioner la branche main dans la nouvelle branche
+```
+git merge main
+```
+
 ### copier dedans la branche main
 ```
 git push origin nom_de_la_nouvelle_branche
