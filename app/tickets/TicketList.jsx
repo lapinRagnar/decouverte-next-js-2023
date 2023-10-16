@@ -2,6 +2,11 @@ import Link from 'next/link'
 import React from 'react'
 
 async function getTickets() {
+
+  // imitate a delay for database
+  await new Promise((r) => setTimeout(r, 2000))
+
+
   const res = await fetch('http://localhost:4000/tickets', {
     next: {
       revalidate: 2 // revalidate every 0 seconds (pas mettre en cache)
