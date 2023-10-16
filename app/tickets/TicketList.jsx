@@ -1,7 +1,11 @@
 import React from 'react'
 
 async function getTickets() {
-  const res = await fetch('http://localhost:4000/tickets')
+  const res = await fetch('http://localhost:4000/tickets', {
+    next: {
+      revalidate: 30 // refaire le fetch dans 30 secondes parce que par defaut next ne le fait pas
+    }
+  })
 
   return res.json()
 }
