@@ -3,7 +3,7 @@ import React from 'react'
 async function getTickets() {
   const res = await fetch('http://localhost:4000/tickets', {
     next: {
-      revalidate: 0 // revalidate every 0 seconds (pas mettre en cache)
+      revalidate: 2 // revalidate every 0 seconds (pas mettre en cache)
     }
   })
 
