@@ -83,6 +83,12 @@ git checkout main
 git merge development
 ```
 
+### 3. faire un pull
+
+```
+git pull
+```
+
 
 # les datas pour le fetch
 j'ai utilisé json-server pour créer mes datas
