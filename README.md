@@ -47,38 +47,38 @@ deploiement à faire
 
 ## commande git pour créer une nouvelle branche et copier dedans la branche main
 
-##### afficher les branches
+##### 1. afficher les branches
 ```bash
 git branch -a
 ```
-### creer une nouvelle branche
+### 2. creer une nouvelle branche
 ```
 git branch nom_de_la_nouvelle_branche
 ```
-### selectionner la nouvelle branche
+### 3. selectionner la nouvelle branche
 
 ```
 git checkout nom_de_la_nouvelle_branche
 ```
 
-### fusioner la branche main dans la nouvelle branche
+### 4. fusioner la branche main dans la nouvelle branche
 ```
 git merge main
 ```
 
-### copier dedans la branche main
+### 5. copier dedans la branche main
 ```
 git push origin nom_de_la_nouvelle_branche
 ```
 
 ## les commandes git pour pousser de la branche development vers la branche main
 
-### selectionner la branche main
+### 1. selectionner la branche main
 ```
 git checkout main
 ```
 
-### fusioner la branche development vers la branche main
+### 2. fusioner la branche development vers la branche main
 ```
 git merge development
 ```
