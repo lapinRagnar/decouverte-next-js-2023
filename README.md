@@ -43,3 +43,37 @@ https://github.com/iamshaunjp/nextjs-masterclass
 deploiement à faire 
 
 
+# resources
+
+## commande git pour créer une nouvelle branche et copier dedans la branche main
+
+##### afficher les branches
+```bash
+git branch -a
+```
+### creer une nouvelle branche
+```
+git branch nom_de_la_nouvelle_branche
+```
+### selectionner la nouvelle branche
+
+```
+git checkout nom_de_la_nouvelle_branche
+```
+
+### copier dedans la branche main
+```
+git push origin nom_de_la_nouvelle_branche
+```
+
+## les commandes git pour pousser de la branche development vers la branche main
+
+### selectionner la branche main
+```
+git checkout main
+```
+
+### fusioner la branche development vers la branche main
+```
+git merge development
+```
