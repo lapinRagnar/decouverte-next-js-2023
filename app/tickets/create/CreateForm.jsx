@@ -17,7 +17,7 @@ const CreateForm = () => {
     setIsLoading(true)
 
     const ticket=  {
-      title, body, priority, user_email: 'lapinragnar@gmail.com'
+      title, body, priority, user_email: 'lapinragnar@gmail.com', created_at: new Date().toISOString()
     }
 
     const res = await fetch(`http://localhost:4000/tickets`, {
